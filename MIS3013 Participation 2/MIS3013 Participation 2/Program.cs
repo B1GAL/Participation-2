@@ -23,6 +23,7 @@ namespace MIS3013_Participation_2
             gpa = gpa + .5; // i would really love it if they bumped my gpa up by .5
 
             string output = "Hello " + firstName + " " + lastName + " " + " we boosted your gpa to " + gpa.ToString("N3");
+            //output = $"Hello {firstName} {lastName}! we boosted your gpa to {gpa.ToString("N3")}
 
             Console.WriteLine(output);
         }
